@@ -6,7 +6,7 @@ st.set_page_config(
     layout="wide"
 )
 
-# 배경 스타일 삽입
+# 배경 및 텍스트 스타일 조정
 st.markdown("""
     <style>
         /* 배경 스타일 */
@@ -16,16 +16,17 @@ st.markdown("""
         }
         .main-title {
             font-size: 5em;
-            font-weight: bold;
+            font-weight: 900;
             text-align: center;
-            letter-spacing: 0.2em;
-            color: #00ffe5;
-            text-shadow: 2px 2px 10px rgba(0,255,229,0.8);
+            letter-spacing: 0.1em;
+            color: #78d9ff; /* 더 부드러운 파란색 */
+            text-shadow: 1px 1px 5px rgba(120, 217, 255, 0.5);
         }
         .subtitle {
             text-align: center;
-            font-size: 1.5em;
-            color: #e0f7fa;
+            font-size: 1.6em;
+            font-weight: 400;
+            color: #c0d6df;  /* 회색 + 청록 계열로 부드럽게 */
             margin-top: -10px;
             margin-bottom: 30px;
         }
